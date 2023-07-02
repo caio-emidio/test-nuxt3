@@ -1,8 +1,14 @@
-<script setup lang="ts">
+<script setup>
+useHead({
+  title: 'Nuxt 3 PrimeVue Starter'
+})
 </script>
 
 <template>
-  <div class="h-screen w-screen">
+  <NuxtLayout>
     <NuxtPage />
-  </div>
+  </NuxtLayout>
 </template>
+
+<style>
+</style>
